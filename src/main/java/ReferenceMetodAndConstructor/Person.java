@@ -1,12 +1,12 @@
 package ReferenceMetodAndConstructor;
 
 public class Person {
-    String firstName;
+    public String firstName;
     String lastName;
 
-    Person() {}
+    public Person() {}
 
-    Person(String firstName, String lastName) {
+    public Person(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
